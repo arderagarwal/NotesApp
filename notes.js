@@ -28,7 +28,11 @@ const getNotes = function(){
     }
     
 }
+const removeNotes = function(title){
+    console.log('Removing note '+title)
+}
 module.exports = {
     getNotes : getNotes,
-    addNotes : addNotes
+    addNotes : addNotes,
+    removeNotes : removeNotes
 }    
