@@ -13,7 +13,7 @@ const addNotes = function(title,body){
         console.log("Note was Added")
     }
     else{
-        console.log('Title is already taken')
+        console.log('Title already taken')
     }
    
 }
